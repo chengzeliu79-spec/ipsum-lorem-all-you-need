@@ -1,6 +1,6 @@
 # Ipsum Lorem is All You Need
 
-This repository contains the implementation for the paper "Ipsum Lorem is All You Need".
+This repository contains the implementation for the paper "Ipsum Lorem is All You Need", accepted at COML 2025 (oral presentation).
 
 ## Overview
 
@@ -27,15 +27,15 @@ The core insight of our work is that many complex components in traditional LLM 
 ## Repository Structure
 
 ```
-├── src/
-│   ├── model.py         # Simplified Ipsum Lorem model implementation
-│   ├── train.py         # Training script for Ipsum Lorem architecture
-│   └── utils.py         # Utility functions for simplified architecture
-├── data/                # Data processing utilities
-├── experiments/         # Experimental configurations
-├── results/            # Performance analysis and results
-├── notebooks/          # Analysis and visualization notebooks
-└── benchmarks/         # Benchmark comparisons
+├── src/                  # Source code
+│   ├── model.py          # Simplified Ipsum Lorem model implementation
+│   ├── train.py          # Training script for Ipsum Lorem architecture
+│   └── utils.py          # Utility functions for simplified architecture
+├── data/                 # Data processing utilities
+├── experiments/          # Experiment configurations
+├── results/              # Performance analysis and results
+├── notebooks/            # Analysis and visualization notebooks
+└── benchmarks/           # Benchmark comparisons
 ```
 
 ## Quick Start
@@ -43,7 +43,7 @@ The core insight of our work is that many complex components in traditional LLM 
 ### Installation
 
 ```bash
-git clone https://github.com/mcptest-user/ipsum-lorem-all-you-need.git
+git clone https://github.com/chengzeliu79-spec/ipsum-lorem-all-you-need.git
 cd ipsum-lorem-all-you-need
 pip install -r requirements.txt
 ```
@@ -73,7 +73,7 @@ python src/training/compare.py --baseline bert-base --our-model ipsum-lorem
 @inproceedings{smith2025ipsum,
   title={Ipsum Lorem is All You Need},
   author={Smith, John and others},
-  booktitle={Under review at COML 2025 - Conference on Machine Learning},
+  booktitle={Accepted at COML 2025 - Conference on Machine Learning},
   year={2025}
 }
 ```
